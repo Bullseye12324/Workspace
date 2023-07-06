@@ -1,13 +1,5 @@
+import testexamples as t
 import itertools
-import sys
-
-NO_PATH = sys.maxsize
-
-graph = [[0, 7, NO_PATH, 8],
-         [NO_PATH, 0, 5, NO_PATH],
-         [NO_PATH, NO_PATH, 0, 2],
-         [NO_PATH, NO_PATH, NO_PATH, 0]]
-
 
 def floydA(matrix):
     MAX_LENGTH = len(matrix[0])
@@ -33,7 +25,7 @@ def shortestdistance(matrix, start_node, end_node, intermediate):
 
 def floydAIterative(matrix):
     V = len(matrix[0])
-    dist = list(map(lambda i: list(map(lambda j: j, i)), graph))
+    dist = list(map(lambda i: list(map(lambda j: j, i)), matrix))
     for k in range(V):
 
         # pick all vertices as source one by one
@@ -51,7 +43,5 @@ def floydAIterative(matrix):
     return dist
 
 
-recursiveoutput = floydA(graph)
-print(recursiveoutput)
-interativeoutput = floydAIterative(graph)
-print(interativeoutput)
+interativeoutput = floydAIterative(t.input_7)
+recursiveoutput = floydA(t.input_7)

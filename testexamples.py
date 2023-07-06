@@ -67,3 +67,12 @@ output_7 = [[0, 7, 12, 8],
             [NO_PATH, 0, 5, 7],
             [NO_PATH, NO_PATH, 0, 2],
             [NO_PATH, NO_PATH, NO_PATH, 0]]
+
+# larger example for performance test
+
+input_8 = [[0, 2, 2, NO_PATH, NO_PATH, NO_PATH],
+           [NO_PATH, 0, 2, NO_PATH, NO_PATH, NO_PATH],
+           [NO_PATH, NO_PATH, 0, 2, 2, 6],
+           [NO_PATH, NO_PATH, NO_PATH, 0, NO_PATH, 2],
+           [NO_PATH, NO_PATH, NO_PATH, NO_PATH, 0, 2],
+           [NO_PATH, NO_PATH, NO_PATH, NO_PATH, NO_PATH, 0]]
