@@ -15,6 +15,11 @@ Directory Structure
 └── README.md
 
 Installation
+Installation
+Clone this repository: https://github.com/Bullseye12324/Workspace.git
+(https://github.com/Bullseye12324/Workspace/assets/138522173/70f903e3-475c-4f8a-8893-39dcddf9359e)
+
+
 
 Usage
 Tests
