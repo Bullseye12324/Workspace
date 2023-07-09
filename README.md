@@ -23,7 +23,7 @@ navigate to main directory
 pip install - r requirements.txt
 
 Usage
-To use the recursive implementation of Floyd's algorithm importnt the 'FloydA' module into your code
+To use the recursive implementation of Floyd's algorithm import the 'FloydA' module into your code
 
 Tests
 This project includes comprehensive unit tests to ensure the correctness of the recursive implementation. To run the tests, execute the following command 
